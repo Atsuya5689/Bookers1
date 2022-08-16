@@ -13,3 +13,101 @@
  *= require_tree .
  *= require_self
  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetina, sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+h1 {
+  margin: 20px 0;
+}
+
+table {
+  padding: 10px;
+  width: 700px;
+  margin-bottom: 20px;
+}
+.a {
+  width: 200px;
+}
+.b {
+  width: 350px;
+}
+tbody {
+  line-height: 30px;
+}
+
+.show, .edit, .delete{
+  color: #333;
+  margin-left: 8px;
+}
+
+.show:hover {
+  color: #fff;
+  background-color: #333;
+}
+.edit:hover {
+  color: #fff;
+  background-color: #333;
+}
+.delete:hover {
+  color: #fff;
+  background-color: #333;
+}
+
+.form h4 {
+  margin-top: 15px;
+}
+
+.button {
+  margin: 15px 0;
+  display: block;
+}
+
+.book-show {
+  margin: 40px 50px;
+  line-height: 40px;
+}
+
+
+.create-error {
+  margin-top: 20px;
+  height: 150px;
+  width: 500px;
+  border: red solid 2px;
+}
+.error-title {
+  background-color: red;
+}
+.create-error h3{
+  font-size: 15px;
+  padding-left: 15px;
+  color: #fff;
+  line-height: 30px;
+}
+.error-body {
+  list-style-position: inside;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.error-form-title {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color:red;
+}
+.error-form {
+  background-color: red;
+  display: table;
+  padding:2px;
+}
