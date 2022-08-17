@@ -111,3 +111,7 @@ tbody {
   display: table;
   padding:2px;
 }
+
+.flash {
+  color:green;
+}
